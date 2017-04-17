@@ -13,4 +13,9 @@ public class PersonRestController {
 		return "name1: " + name;
 	}
 
+	@POST
+	@Path("/name2")
+	public String name2(@FormParam("name") String name) {
+		return "name2: " + name;
+	}
 }

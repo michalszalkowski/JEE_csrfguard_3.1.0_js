@@ -17,6 +17,13 @@
     <input type="submit" value="Submit" />
 </form>
 
+<form action="/jee_csrfguard_js/rest/person/name2" method="POST">
+    Name:
+    <input type="text" name="name">
+    <br />
+    <input type="submit" value="Submit" />
+</form>
+
 <script src="/jee_csrfguard_js/csrfguard.js"></script>
 
 </body>
